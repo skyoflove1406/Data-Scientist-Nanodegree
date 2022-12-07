@@ -10,46 +10,34 @@ This code runs with Python version 3.* and requires some libraries, to install t
 pip install -r requirements.txt
 ```
 
-You will need to download Stackoverflow’s 2017 and 2018 Annual Developer Survey and put in specific folders. You can find the data to download [here](https://insights.stackoverflow.com/survey).
+You will need to download Stack Overflow Developer Survey 2017 and put in dataset folders. You can find the data to download [here](https://www.kaggle.com/datasets/stackoverflow/so-survey-2017).
 
-To move the downloaded files to the specific folder, you can execute.
-
-1. Stackoverflow’s 2017 data
-```bash 
-mv survey_results_public.csv Write-a-Data-Science-Blog-Post/data/2017/survey_results_public.csv 
-```
-
-2. Stackoverflow’s 2018 data
-```bash 
-mv survey_results_public.csv Write-a-Data-Science-Blog-Post/data/2018/survey_results_public.csv 
-```
 
 ## Project Motivation
 
 This is an Udacity Nanodegree project. I picked Stackoverflow Developer Survey Data to find answer to below questions:
 
-1. "What are most used programming language in India?"
-
-2. "Do you program as a hobby or contribute to open source projects?"
-
-3. "What are most wanted programming language in India?"
-
-4. "Which occupations were most popular in India in each year?"
+1. Which countries are surveyed the most?
+2. What are the most popular programming languages?
+3. In each country, which programming language is most popular?
+4. How are job satisfaction ratings in each country?
+5. What are the popular programming languages in Vietnam?
+6. What is the level of job satisfaction in Vietnam, Denmark, and Israel based on employment status?
 
 
 ## File Description
 
-#### DataScience_blogpost.ipynb: 
+#### Writing a Data Scientist Blog Post.ipynb: 
 Notebook containing the data analysis.
-#### data/2017/survey_results_public.csv: 
-Stackoverflow's 2017 Annual Developer Survey data.
-#### data/2018/survey_results_public.csv: 
-Stackoverflow's 2018 Annual Developer Survey data.
+#### dataset/survey_results_public.csv: 
+Stack Overflow Developer Survey 2017 data.
+#### dataset/survey_results_schema.csv: 
+Stack Overflow Developer Survey 2017 schema.
 
 ## Results
 
-The main findings of the code can be found at the post available [here](https://medium.com/p/82bfe33b85d0/edit)
+The main findings of the explaination can be found at the post available [here](https://medium.com/p/a8e0ec5795ef)
 
 ## Licensing, Authors, Acknowledgements
 
-Must give credit to Stackoverflow for the data. You can find the Licensing for the data and other descriptive information at the Stackoverflow link available [here](https://insights.stackoverflow.com/survey).
+Must give credit to Stackoverflow for the data. You can find the Licensing for the data and other descriptive information at the Stackoverflow link available [here](https://www.kaggle.com/datasets/stackoverflow/so-survey-2017).
