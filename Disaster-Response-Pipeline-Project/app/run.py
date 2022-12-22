@@ -15,6 +15,18 @@ app = Flask(__name__)
 
 
 def tokenize(text):
+    """
+    Tokenizing and lemmatizing text
+
+    Tokenizing and lemmatizing text using nltk.
+
+    Parameters:
+    text (str): text
+
+    Returns:
+    list: list of clean token
+
+    """
     tokens = word_tokenize(text)
     lemmatizer = WordNetLemmatizer()
 
